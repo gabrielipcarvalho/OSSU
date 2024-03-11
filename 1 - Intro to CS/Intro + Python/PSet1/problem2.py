@@ -8,5 +8,4 @@ for i, ch in enumerate(s):
         break
     if ch == "b" and s[i + 1] == "o" and s[i + 2] == "b":
         bob += 1
-    counter += 1
 print(bob)
